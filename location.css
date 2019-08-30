@@ -1,0 +1,172 @@
+.navS{
+	float: right;
+	background-color: black;
+
+}
+
+/*.bg-light{
+	background-color: black !important;
+}*/
+.body{
+   font-family: 'Poppins', sans-serif;
+   background: rgb(32, 35, 41);
+  /*font: 16px*/
+  /*padding: 48px 0px 0px;*/
+  }
+
+ .container{
+background: #333;
+}
+
+
+.col-md-4{
+	border-color:transparent; 
+ }
+
+.header{
+	margin-top: 0%;
+	text-decoration: none;
+	padding: 12.5px;
+	padding-bottom: 45px;
+    /*padding: 8px 16px;*/
+    /*color: #212529;*/
+    background: #343a40;
+    /*font:16px; */
+    list-style: none;
+    list-style-type: none;
+    width: auto;
+    text-align: center;
+    /*height: 60%;*/
+    /*flex-direction: row-reverse;*/
+    /*float: left;*/
+}
+.header li a{
+	text-decoration: none;
+	box-sizing: border-box;
+	cursor: pointer;
+	color: white
+}
+
+.row{
+	background-color: rgb(32, 35, 41);
+}
+	
+.header .name{
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	/*margin: 0px 16px 0px 0px;*/
+	/*color: white;
+	font: 20px;*/
+	margin-left: 80px;
+	float: left;
+
+}
+.Rick a{
+	/*color: white;*/
+	padding-top: 8px;
+	margin-bottom: 8px; 
+	margin-left: 11px;
+	float: left;
+	font:20px;
+}
+
+
+/*.header .character{*/
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	
+/*}*/
+
+.character a{
+	/*color: white;*/
+	float: left;
+	padding: 8px;
+	font: 16px;
+}
+.character a:hover{
+	opacity: 0.7;
+	color: grey;
+}
+
+/*.header .location{*/
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	
+/*}*/
+.location a{
+	/*color: grey;*/
+	float: left;
+	padding: 8px;
+	/*color: rgba(255 255 255 0.5);*/
+	font: 16px;
+}
+.location a:hover{
+	opacity: 0.7;
+	color: grey;
+}
+#search{
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	float: right;
+	display: inline-block;
+	width: auto;
+	vertical-align: center;
+	/*background: #ffffff;*/
+	/*margin: 0px 8px 0px;*/
+	/*padding: 6px 12px;*/
+}
+.input{
+	/*padding-left: 50px;*/
+	/*padding-top: 35px;*/
+	margin: 0;
+	border-radius: 5px;
+	border:none;
+	outline: none;
+}
+
+.card-body{
+	background: black;
+	color: white;
+	/*opacity: 0.5;
+  	filter: alpha;  For IE8 and earlier 
+	opacity: 0;*/
+}
+
+.square{
+	width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+.
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
